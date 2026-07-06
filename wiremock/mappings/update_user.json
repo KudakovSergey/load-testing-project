@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/api/users/[0-9]+"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1,
+      "username": "updated_user",
+      "message": "User updated"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

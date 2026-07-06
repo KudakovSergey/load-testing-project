@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/api/users/[0-9]+"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "message": "User deleted"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

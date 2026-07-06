@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/users/[0-9]+"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1,
+      "username": "test_user",
+      "email": "test@example.com"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
