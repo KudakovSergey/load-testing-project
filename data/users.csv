@@ -1,4 +1,11 @@
-username,password
-user1,pass1
-user2,pass2
-user3,pass3
+username,email
+alex,alex@test.com
+maria,maria@test.com
+dmitry,dmitry@test.com
+elena,elena@test.com
+ivan,ivan@test.com
+olga,olga@test.com
+sergey,sergey@test.com
+anna,anna@test.com
+pavel,pavel@test.com
+natalia,natalia@test.com

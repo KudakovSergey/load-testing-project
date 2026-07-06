@@ -7,11 +7,13 @@
     "status": 201,
     "jsonBody": {
       "id": 1,
-      "username": "created_user",
+      "username": "{{jsonPath request.body '$.username'}}",
+      "email": "{{jsonPath request.body '$.email'}}",
       "message": "User created"
     },
     "headers": {
       "Content-Type": "application/json"
-    }
+    },
+    "transformers": ["response-template"]
   }
 }
